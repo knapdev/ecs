@@ -1,5 +1,5 @@
 
-class System {
+export class System {
 	constructor(){
 		this._active = true;
 		this._requiredComponents = [];
@@ -19,5 +19,3 @@ class System {
 		this._active = flag;
 	}
 }
-
-export default System

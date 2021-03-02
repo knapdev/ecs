@@ -1,5 +1,5 @@
 
-class Entity {
+export class Entity {
 	constructor(name){
 		this._id = 0; //getUUID()?
 		this._name = name || 'New Entity';
@@ -108,5 +108,3 @@ class Entity {
 		this._active = flag;
 	}
 }
-
-export default Entity

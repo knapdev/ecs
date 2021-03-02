@@ -1,8 +1,8 @@
-import Entity from './ecs/entity.js'
-import Component from './ecs/component.js'
-import System from './ecs/system.js'
+import { Entity } from './ecs/entity.js'
+import { Component } from './ecs/component.js'
+import { System } from './ecs/system.js'
 
-import Vector3 from './math/vector3.js'
+import { Vector3 } from './math/vector3.js'
 
 console.log('Started...');
 

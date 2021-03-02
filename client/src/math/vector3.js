@@ -1,5 +1,5 @@
 
-class Vector3 {
+export class Vector3 {
 	constructor(){
 		this._x = 0;
 		this._y = 0;
@@ -36,5 +36,3 @@ class Vector3 {
 		return this._z;
 	}	
 }
-
-export default Vector3
