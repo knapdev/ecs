@@ -6,7 +6,6 @@ class System {
 	}
 
 	init(){
-
 	}
 
 	process(entity, deltaTime){

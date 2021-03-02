@@ -167,7 +167,6 @@ for(let i = 0; i < 1000; i++){
 	child.setParent(root);
 }
 
-
 let lifetimeSystem = new LifetimeSystem();
 lifetimeSystem.init();
 
@@ -188,7 +187,6 @@ function loop(now){
 
 	renderSystem.preRender();
 	renderSystem.process(root, deltaTime);
-
 
 	then = now;
 	requestAnimationFrame(loop);

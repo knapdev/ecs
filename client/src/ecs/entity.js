@@ -38,8 +38,6 @@ class Entity {
 		return this._children;
 	}
 
-
-
 	addComponent(ComponentType){
 		if(this._components[ComponentType.name] !== undefined){
 			console.log('Entity (' + this._name + ') already has component of type "' + ComponentType.name);
